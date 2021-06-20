@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact me</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+		
+		footer{
+			top: 700px;
+		}
+
+		.right{
+		   	display: inline-block;
+    		  position: fixed;
+  			  top: 240px;
+  			  left: 350px;
+ 			   margin: auto;
+		}
+
+		h2{
+			padding-right: 320px;
+		}
+
+
+		.button{
+				font-size: 15px;
+				width: 40%;
+				height: 25px;
+				margin-left: 120px;
+				background-color: lightblue;
+				border-radius: 7px;
+				}
+
+		.button:hover {
+    		background: blue;
+		}
+
+		p{
+			font-size: 18px;
+			 width:390px;
+            word-wrap:break-word;
+		}
+
+		.input-container {
+					display: inline-flex;
+                    margin-bottom: 30px;
+                    height: 28px;
+                  }
+
+                  .icon {
+                    padding: 5px;
+                    background: lightgrey;
+                    min-width: 50px;
+                    text-align: center;
+                  }
+
+                  a{
+                  	text-decoration: none;
+                  }
+
+                  button{
+                  	margin-right: 50px;
+                  }
+
+                  		    /* The animation code */
+@keyframes example {
+  0%   {background-color: cyan;}
+  10%  {background-color: yellow;}
+  20%  {background-color: blue;}
+  30% {background-color: green;}
+  40% {background-color: purple;}
+  50% {background-color: maroon;}
+  60% {background-color: orange;}
+  70% {background-color: magenta;}
+  80% {background-color: gold;}
+  90% {background-color: olive;}
+  100% {background-color: red;}
+}
+
+/* The element to apply the animation to */
+.animation {
+  background-color: cyan;
+  animation-name: example;
+  animation-duration: 10s;
+}
+	</style>
+</head>
+<body>
+
+<header>
+<nav>
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact Me</a>
+</nav>
+</header>
+
+  <div class="rect">
+  	<div class="right">
+  		<h2>Contact Me....</h2>
+
+  	<p>
+  		    Virat Kohli is an Indian cricketer and the current captain
+  	   of the India national team. A right-handed top-order batsman,
+  	     Kohli is regarded as one of the best contemporary batsmen in 
+  	  the world. He plays for Royal Challengers Bangalore in the 
+  	  Indian Premier League, and has been the team's captain 
+  	  since 2013.
+  	</p>
+
+  	<button class="button"><a href="registration_form.php"> <div class="animation"> JOB REGISTRATION </div></a></button>
+  	</div>
+
+  <form class="send">
+
+  	<div class="input-container">
+    <i class="fa fa-user icon"></i>
+  	<input class="wid" type="text" name="name" placeholder="Name"><br><br>
+  	</div>
+
+  	<div class="input-container">
+  	<i class="fa fa-envelope icon"></i>
+  	<input class="wid" type="text" name="email" placeholder="Email"><br><br>
+  	</div>
+  	
+  	<div class="input-container">
+  	<i class="fas fa-sticky-note icon"></i>
+  	<textarea class="wid" name="message" rows="10" column="25" placeholder="Message.."></textarea><br><br>
+    </div>
+
+  	<input type="submit" name="submit" value="Submit" class="button">
+
+  </form>
+</div>
+
+<footer>
+        <p id="footer" style=" margin: auto; margin-top: 20px;">@Copyright 2021</p>
+</footer>
+
+</body>
+</html>

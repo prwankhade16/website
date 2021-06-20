@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+
+		footer{
+			top: 700px;
+		}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  padding: 5px;
+  background-color: lightblue;
+  text-align: center;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.con{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.man{
+	width: 60%;
+  height: 500px;
+  padding-top: 50px;
+  padding: 40px;
+	margin: auto;
+  margin-top: 60px;
+	background-color: lavender;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact Me</a>
+</nav>
+</header>
+
+<div class="man">
+<div class="row">
+  <div class="column">
+      <img src="images/noodles.jpg" alt="noodles" style="width:100%">
+      <div class="container">
+        <h2>NOODLES</h2>
+        <p class="title">ABC</p>
+        <p>In literary theory, a text is any object that can be "read", whether this object is a work of literature, a street sign, </p>
+        <p><a class="con" style="color:blue; margin-left: 80px;" href="mailto:noodles@gmail.com">send mail</a></p>
+        <p><button class="button"><a class="con" href="tel:7264988289:">Contact</a></button></p>
+      </div>
+  </div>
+
+  <div class="column">
+      <img src="images/puri.jpg" alt="puri" style="width:100%">
+      <div class="container">
+        <h2>PURI</h2>
+        <p class="title">PQR</p>
+        <p>In literary theory, a text is any object that can be "read", whether this object is a work of literature, a street sign,</p>
+        <p> <a class="con" style="color:blue; margin-left: 80px;" href="mailto:puri@gmail.com">send mail</a></p>
+        <p><button class="button"><a class="con" href="tel:7264988289:">Contact</a></button></p>
+      </div>
+  </div>
+  
+  <div class="column">
+      <img src="images/salad.jpg" alt="salad" style="width:100%">
+      <div class="container">
+        <h2>SALAD</h2>
+        <p class="title">XYZ</p>
+        <p>In literary theory, a text is any object that can be "read", whether this object is a work of literature, a street sign,</p>
+        <p><a class="con" style="color:blue; margin-left: 80px;" href="mailto:salad@gmail.com">send mail</a></p>
+        <p><button class="button"><a class="con" href="tel:7264988289:">Contact</a></button></p>
+      </div>
+    </div>
+</div>
+</div>
+<footer>
+        <p id="footer">@Copyright 2021</p>
+</footer>
+
+</body>
+</html>
