@@ -5,5 +5,5 @@ using html, css, php and mysql
 
 #Deployed at
 
-https://pramodofficial.epizy.com
+http://pramodofficial.epizy.com/
 Infinity free
