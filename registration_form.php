@@ -103,7 +103,7 @@
 		
 		<div class="input-container">
     	<i class="fa fa-user icon"></i>
-		<input class="len" type="text" name="firstName" placeholder="First Name"><br><br>
+		<input class="len" type="text" name="firstName" placeholder="First Name" required><br><br>
 		</div>
 
 		<div class="input-container">
@@ -113,27 +113,27 @@
 
 		<div class="input-container">
     	<i class="fa fa-user icon"></i>
-		<input class="len" type="text" name="lastName" placeholder="Last Name"><br><br>
+		<input class="len" type="text" name="lastName" placeholder="Last Name" required><br><br>
 		</div>
 
 		<div class="input-container">
 		<i class="fa fa-mobile icon" aria-hidden="true"></i>
-		<input class="len" type="text" name="mobile" placeholder="Mobile no."><br><br>
+		<input class="len" type="text" name="mobile" placeholder="Mobile no." required><br><br>
 		</div>
 
 		<div class="input-container">
 		<i class="far fa-building icon"></i>
-		<input class="len" type="text" name="branch" placeholder="Branch"><br><br>
+		<input class="len" type="text" name="branch" placeholder="Branch" required><br><br>
 		</div>
 
 		<div class="input-container">
 		<i class="fa fa-user icon"></i>
-		<input class="len" type="text" name="age" placeholder="Age"><br><br>
+		<input class="len" type="text" name="age" placeholder="Age" required><br><br>
 		</div>
 
 		<div class="input-container">
 		<i class="fa fa-user icon"></i>
-		<input class="len" type="text" name="gender" placeholder="Gender"><br><br>
+		<input class="len" type="text" name="gender" placeholder="Gender" required><br><br>
 		</div>
 
 		<input class="button" type="submit" name="submit" value="Register">
